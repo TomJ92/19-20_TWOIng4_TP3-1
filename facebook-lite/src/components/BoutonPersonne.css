@@ -1,0 +1,10 @@
+.BoutonPersonne {
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+	border-radius: 4px;
+}
