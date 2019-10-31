@@ -80,6 +80,7 @@ export default class Page extends React.Component {
 				p2 = {this.state.profils[1]}
 				p3 = {this.state.profils[2]}
 				handleClick = {this.handleClick}
+				p_num = {this.state.personne_select}
 				/>
 				<Profil 
 				personne = {this.state.profils[this.state.personne_select]}

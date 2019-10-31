@@ -1,0 +1,28 @@
+.Personne {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    box-shadow: 1px 1px 2px black;
+}
+
+.PP {
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 1px;
+    align-self: middle;
+}
+
+.BgButtonContainer {
+    text-align: right;
+    padding-right: 1%;
+}
+
+.BgButton {
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

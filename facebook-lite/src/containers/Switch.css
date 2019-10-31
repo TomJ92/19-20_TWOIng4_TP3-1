@@ -1,4 +1,9 @@
-.Switch
-{
-	
+nav{
+	float: right;
+	overflow: hidden;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
 }
