@@ -14,7 +14,7 @@ export default class Profil extends React.Component {
 				<h2>Nom : {this.props.personne.prenom} {this.props.personne.nom}</h2>
 				<p>Date de Naissance : <b>{this.props.personne.date}</b></p>
 				<p className="BgButtonContainer">
-				<button className="BgButton" onClick={() => this.handleClick()} >Change style</button>
+				<button className="BgButton" onClick={() => this.props.changeStyle(this.props.personne.id)} >Change style</button>
 				</p>
 			</div>
 			<div className="Post">
