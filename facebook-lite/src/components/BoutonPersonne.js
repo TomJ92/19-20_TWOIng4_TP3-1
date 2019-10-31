@@ -7,7 +7,7 @@ export default class BoutonPersonne extends React.Component {
 		{
 			return (
 				<div>
-				<button className="BoutonPersonne-active" onClick={() => this.props.handleClick(this.props.p.id)}>
+				<button type="button" class="btn btn-primary btn-cyan btn-lg btn-rounded waves-effect" id="BoutonPersonne-active" onClick={() => this.props.handleClick(this.props.p.id)}>
 				<p>{this.props.p.prenom} {this.props.p.nom}</p>
 				</button>
 				</div>
@@ -17,7 +17,7 @@ export default class BoutonPersonne extends React.Component {
 		{
 			return(
 			<div>
-			<button className="BoutonPersonne" onClick={() => this.props.handleClick(this.props.p.id)}>
+			<button type="button" class="btn btn-primary btn-cyan btn-lg btn-rounded waves-effect" id="BoutonPersonne" onClick={() => this.props.handleClick(this.props.p.id)}>
 			<p>{this.props.p.prenom} {this.props.p.nom}</p>
 			</button>
 			</div>

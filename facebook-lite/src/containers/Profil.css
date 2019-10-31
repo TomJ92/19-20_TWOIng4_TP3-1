@@ -1,31 +1,63 @@
-.Personne {
-    border-style: solid;
+.Profil {
+    font-family: Segoe UI;
+    padding-top : 100px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.Personne
+{
+    border-width: 100px;
     border-color: black;
-    border-width: 1px;
-    border-radius: 5px;
-    margin-bottom: 2%;
-    padding-top: 2%;
-    box-shadow: 1px 1px 2px black;
-    text-align: left;
+    border : solid;
+    color: white;
 }
 
 .PP {
-    border-radius: 10%;
-    border-style: solid;
-    border-width: 1px;
-    float: middle;
-    width:25%;
+    width:15%;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
 }
-
 .BgButtonContainer {
     text-align: right;
     padding-right: 1%;
 }
-
-.BgButton {
-    background-color: white;
-    border-radius: 4px;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  text-align: left;
+  margin: 10px;
+  padding : 10px;
+  font-style: normal;
+  font-size: 20px;
+}
+.Prenom {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.Nom {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.Date {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.Post
+{
+    margin-top: 30px;
+    text-align: left;
+    padding: 20px;
+    border-width: 100px;
+    border-color: black;
+    border : solid;
+}
+.the-post
+{
+    font-size: 30px;
 }

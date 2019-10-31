@@ -11,16 +11,19 @@ export default class Profil extends React.Component {
 
 			<div className="Personne" style={{backgroundColor: this.props.personne.background}}>
 				<img className="PP" src={this.props.personne.img} alt="Profile Picture"/>
-				<h2>Nom : {this.props.personne.prenom} {this.props.personne.nom}</h2>
-				<p>Date de Naissance : <b>{this.props.personne.date}</b></p>
+				<div class="wrapper">
+				  <div class="Prenom"><b>Prenom :</b> {this.props.personne.prenom}</div>
+				  <div class="Nom"><b>Nom : </b> {this.props.personne.nom}</div>
+				  <div class="Date"><b>Date de naissance : </b>{this.props.personne.date}</div>
+				</div>
 				<p className="BgButtonContainer">
-				<button className="BgButton" onClick={() => this.props.changeStyle(this.props.personne.id)} >Change style</button>
+				<button type="button" class="btn btn-primary btn-indigo btn-lg btn-rounded waves-effect" onClick={() => this.props.changeStyle(this.props.personne.id)} >Change style</button>
 				</p>
 			</div>
 			<div className="Post">
-				<h2 className="titre_post">Dernier post</h2>
-				<p>"{this.props.personne.post}"</p>
-				<button className="LikeButton" onClick={() => this.props.addLike(this.props.personne.id)}>{this.props.personne.like}👍 C'est super !</button>
+				<h2 className="titre_post">Dernière publication</h2>
+				<p className="the-post">"{this.props.personne.post}"</p>
+				<button type="button" class="btn btn-primary btn-cyan btn-lg btn-rounded waves-effect" onClick={() => this.props.addLike(this.props.personne.id)}>{this.props.personne.like} 👍 C'est super !</button>
 			</div>
 			</div>
 			)

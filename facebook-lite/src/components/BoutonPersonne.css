@@ -1,21 +1,17 @@
-.BoutonPersonne {
-    padding-right: 1%;
-    padding-left: 1%;
-    margin: 1%;
+#BoutonPersonne {
+    margin-left : 20px;
+    margin-right : 20px;
     background-color: #FFFFFF;
-	border-radius: 4px;
 	color: #368ABF;
 }
-.BoutonPersonne-active
+#BoutonPersonne-active
 {
-	padding-right: 1%;
-    padding-left: 1%;
-    margin: 1%;
+	margin-left : 20px;
+    margin-right : 20px;
     background-color: #368ABF;
     color: #FFFFFF;
-	border-radius: 4px;
 }
-.BoutonPersonne:hover
+#BoutonPersonne:hover
 {
     background-color: #368ABF;
     color: #FFFFFF;
