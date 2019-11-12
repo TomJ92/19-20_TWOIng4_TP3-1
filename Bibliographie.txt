@@ -1,0 +1,14 @@
+React - A JavaScript library : https://reactjs.org
+Cours de React d'ING4 OCRES en Technologies Web : https://pedago-ece.campusonline.me/pluginfile.php/232066/mod_resource/content/4/Cours%204%20-%20React%20partie%201.pdf
+Sujet du TP : https://github.com/clementAC/19-20_TWOIng4_TP3
+Compteur en React : https://wsvincent.com/react-counter/
+Bouttons en Bootstrap : https://mdbootstrap.com/docs/jquery/components/buttons/
+Grille CSS : https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout
+Navbar en Bootstrap : https://getbootstrap.com/docs/4.0/components/navbar/
+
+
+
+
+
+
+

@@ -16,12 +16,12 @@ export default class BoutonPersonne extends React.Component {
 		else
 		{
 			return(
-			<div>
-			<button type="button" class="btn btn-primary btn-cyan btn-lg btn-rounded waves-effect" id="BoutonPersonne" onClick={() => this.props.handleClick(this.props.p.id)}>
-			<p>{this.props.p.prenom} {this.props.p.nom}</p>
-			</button>
-			</div>
-			);
+				<div>
+				<button type="button" class="btn btn-primary btn-cyan btn-lg btn-rounded waves-effect" id="BoutonPersonne" onClick={() => this.props.handleClick(this.props.p.id)}>
+				<p>{this.props.p.prenom} {this.props.p.nom}</p>
+				</button>
+				</div>
+				);
 		}
 	}
 }

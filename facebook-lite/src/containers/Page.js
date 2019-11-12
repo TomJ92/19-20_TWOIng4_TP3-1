@@ -57,20 +57,20 @@ export default class Page extends React.Component {
 			this.setState({personne_select: p_number});
 		}
 		addLike(p_num)
-		  {
-		  	this.state.profils[p_num].like = this.state.profils[p_num].like + 1;
-		  	this.setState({personne_select: p_num});
-		  }
-		 changeStyle(p_num) {
-		    if(this.state.profils[p_num].background=="#2A558C") {
-		      this.state.profils[p_num].background="#49B1F2";
-		      this.setState({personne_select: p_num});
-		    }
-		    else {
-		      this.state.profils[p_num].background="#2A558C";
-		      this.setState({personne_select: p_num});
-		    }
-  }
+		{
+			this.state.profils[p_num].like = this.state.profils[p_num].like + 1;
+			this.setState({personne_select: p_num});
+		}
+		changeStyle(p_num) {
+			if(this.state.profils[p_num].background=="#2A558C") {
+				this.state.profils[p_num].background="#49B1F2";
+				this.setState({personne_select: p_num});
+			}
+			else {
+				this.state.profils[p_num].background="#2A558C";
+				this.setState({personne_select: p_num});
+			}
+		}
 
 		render() {
 			return (
